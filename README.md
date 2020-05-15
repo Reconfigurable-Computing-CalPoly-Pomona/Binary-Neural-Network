@@ -40,7 +40,7 @@ BNNs are deep quantized neural networks that aim to reduce the computational res
 Run the following command to see the argument options.   
   ```python main_binary.py --help```  
   
-For instance, to run the Binary ResNet18 model on the CIFAR-10 dataset and to save the data to t results/resnet18_binary, you would run the following:   
+Example: Run the Binary ResNet18 model on the CIFAR-10 dataset and save the data to **results/resnet18_binary**  
   ```python main_binary.py --model resnet_binary --save resnet18_binary --dataset cifar10```   
 
 ### Current project state and future plans
