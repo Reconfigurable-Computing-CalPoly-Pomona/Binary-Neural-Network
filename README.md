@@ -37,9 +37,12 @@ BNNs are deep quantized neural networks that aim to reduce the computational res
       - ```conda install -y scipy```
 
 ### Usage
-Run the following command to see the argument options.
+Run the following command to see the argument options.   
   ```python main_binary.py --help```  
 For instance, to run the Binary ResNet18 model on the CIFAR-10 dataset and to save the data to t results/resnet18_binary, you would run the following:   
   ```python main_binary.py --model resnet_binary --save resnet18_binary --dataset cifar10```   
 
 ### Current project state and future plans
+1. Currently the models are not true binary models. The models use binary weights and activations in the forward pass, but store the floating-point weights, which are used during backpropagation. It is necessary to implement a straight through estimator in order to perform backpropogation without needing to store the full precision weights.
+2. Implement support for binarized versions of other layers, such as RSTM, RNN layers.
+3. Implement function to convert FP model into its binary equivalent.
