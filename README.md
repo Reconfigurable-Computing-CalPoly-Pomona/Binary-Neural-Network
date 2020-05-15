@@ -8,7 +8,7 @@ The objective of this project is to extend the work done by Itay Hubara and his 
 
 1. **George Kotobuki**: Electrical and Computer Engineering Department, College of Engineering, California State Polytechnic University, Pomona. 
     
-##Supervising Professor 
+## Supervising Professor 
 
 **Mohamed El-Hadedy:** Assistant Professor, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
 
@@ -30,8 +30,13 @@ BNNs are deep quantized neural networks that aim to reduce the computational res
 - ``` conda activate myenv ```
 - First install the supported version of Python.
 - ``` conda install python=3.7```
-Install the packages and libraries necessary:
-- ```conda install pytorch torchvision cudatoolkit=10.2 -c pytorch```]
+- Install the packages and libraries necessary:
+- ```conda install pytorch torchvision cudatoolkit=10.2 -c pytorch```
+- ```conda install -y pandas```
+- ```conda install -y bokeh```
+- ```conda install -y scipy```
+
+### Usage
 - Run the following command to see the argument options.
 - ```python main_binary.py --help```
 - For instance, to run the Binary ResNet18 model on the CIFAR-10 dataset and to save the data to t results/resnet18_binary, you would run the following:
