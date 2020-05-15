@@ -21,20 +21,20 @@ BNNs are deep quantized neural networks that aim to reduce the computational res
 
 ### Setup
 1. Install Anaconda by following the instructions on the official page:  
-  - https://docs.anaconda.com/anaconda/install/
+    - https://docs.anaconda.com/anaconda/install/
 2. Create and configure the virtual environment:
-  - First create the virtual environment:
-    - ``` conda create --name myenv ```
-    - where 'myenv' corresponds to the name of the virtual environment and can be substituted for some other name.
-  - Activate the virtual environment with the following command:
-    - ``` conda activate myenv ```
-  - First install the supported version of Python.
-    - ``` conda install python=3.7```
-  - Install the packages and libraries necessary:
-    - ```conda install pytorch torchvision cudatoolkit=10.2 -c pytorch```
-    - ```conda install -y pandas```
-    - ```conda install -y bokeh```
-    - ```conda install -y scipy```
+    - First create the virtual environment:
+      - ``` conda create --name myenv ```
+      - where 'myenv' corresponds to the name of the virtual environment and can be substituted for some other name.
+    - Activate the virtual environment with the following command:
+      - ``` conda activate myenv ```
+    - First install the supported version of Python.
+      - ``` conda install python=3.7```
+    - Install the packages and libraries necessary:
+      - ```conda install pytorch torchvision cudatoolkit=10.2 -c pytorch```
+      - ```conda install -y pandas```
+      - ```conda install -y bokeh```
+      - ```conda install -y scipy```
 
 ### Usage
 Run the following command to see the argument options.
